@@ -53,7 +53,6 @@
                 }
             }
 
-
             if (rateValue < newRateValue) {
                 spanRateValue.setAttribute("class", "up");
 
