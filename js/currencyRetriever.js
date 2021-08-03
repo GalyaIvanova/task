@@ -1,7 +1,7 @@
 function CurrencyRatesRetriever() {
     this.get = function(){
         return new Promise(function (resolve, reject) {
-            fetch("./currencies.json")
+            fetch("./js/currencies.json")
             .then(res => {
                 if (res.status === 200) {
                     const jsonData = res.json();
