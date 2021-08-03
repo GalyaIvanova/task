@@ -80,7 +80,6 @@
 
         const keys = Object.keys(currencies);
         keys.forEach(rateKey => {
-
             let div = document.createElement('div');
             let span = document.createElement('span');
             div.textContent = "EUR" + rateKey;
