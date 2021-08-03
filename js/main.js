@@ -61,7 +61,6 @@
 
             }
             this.currencyData.rates[rateKey] = newRateValue;
-
         });
     }
 
