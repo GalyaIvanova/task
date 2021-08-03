@@ -1,0 +1,30 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 30%;
+    margin: auto;
+    }
+    
+    .parent div{
+        float: left;
+        width: 200px;
+    
+    }
+    .parent *{
+        border-bottom: 1px solid black;
+    
+        padding: 7px;
+    
+    }
+   
+.up{
+    background-color: aquamarine;
+}
+
+.down{
+
+    background-color: rgb(240, 107, 107);
+}
